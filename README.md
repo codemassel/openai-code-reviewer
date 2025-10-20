@@ -25,8 +25,8 @@ Ein **AI Code Reviewer**, der GitHub-Repositories analysiert, den Code auf Quali
 1. Repository klonen:
 
    ```bash
-   git clone https://github.com/<dein-username>/<repo-name>.git
-   cd <repo-name>
+   git clone https://github.com/Codemassel/openai-code-reviewer.git
+   cd openai-code-reviewer
    ```
 
 2. Python Virtual Environment erstellen:
@@ -104,8 +104,8 @@ Antwort:
 ## ⚠ Hinweise
 
 * Ein gültiger **OpenAI API-Key** ist notwendig
-* Eventuell fallen API-Kosten bei OpenAI an
-* `.env` darf **nicht** ins GitHub-Repository hochgeladen werden
+* ! Achtung: Eventuell fallen API-Kosten bei OpenAI an
+* `.env` darf **natürlich nicht** ins GitHub-Repository hochgeladen werden
 
 ---
 
