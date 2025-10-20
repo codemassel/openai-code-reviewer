@@ -1,0 +1,8 @@
+openai
+PyGithub
+python-dotenv
+pytest
+black
+fastapi
+uvicorn
+httpx

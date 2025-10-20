@@ -1,0 +1,9 @@
+# Dockerfile.frontend
+FROM nginx:alpine
+
+# Der Kontext ist jetzt ./frontend, also einfach alles von hier kopieren
+COPY . /usr/share/nginx/html
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
